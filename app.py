@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 load_dotenv()
+# JUST WANNA TEST THE COMMIT CHANGES
 
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
